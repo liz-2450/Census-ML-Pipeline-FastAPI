@@ -66,6 +66,7 @@ save_model(encoder, encoder_path)
 print("Encoder saved to model/encoder.pkl")
 
 # load the model
+print("Loading model from model/model.pkl")
 model = load_model(
     model_path
 ) 
